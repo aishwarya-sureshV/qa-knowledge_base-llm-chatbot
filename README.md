@@ -10,6 +10,7 @@ Features included:
 - Dockerfile and instructions for local run
 
 Architecture:
+```
 ┌─────────────────────────────────────────────────────────────┐
 │                    FastAPI Application                       │
 │                    (app/main.py)                             │
@@ -48,7 +49,7 @@ Architecture:
 │           ChromaDB Vector Store                  │
 │  (Persistent storage at chroma_db/)              │
 └──────────────────────────────────────────────────┘
-
+```
 
 ## Setup
 
